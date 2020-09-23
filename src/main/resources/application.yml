@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: kafka-tutorial
+  kafka:
+    consumer:
+      group-id: kafkaTutorial
+      auto-offset-reset: earliest
